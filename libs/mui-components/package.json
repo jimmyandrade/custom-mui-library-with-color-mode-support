@@ -2,11 +2,13 @@
   "name": "@jimmyandrademusic/mui-components",
   "version": "0.0.1",
   "main": "./index.js",
+  "module": "./index.mjs",
   "types": "./index.d.ts",
   "exports": {
     ".": {
       "import": "./index.mjs",
-      "require": "./index.js"
+      "require": "./index.js",
+      "types": "./index.d.ts"
     }
   }
 }
