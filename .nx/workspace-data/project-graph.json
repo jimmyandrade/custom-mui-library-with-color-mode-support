@@ -2169,6 +2169,15 @@
         "hash": "sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg=="
       }
     },
+    "npm:@nrwl/cypress": {
+      "type": "npm",
+      "name": "npm:@nrwl/cypress",
+      "data": {
+        "version": "19.4.2",
+        "packageName": "@nrwl/cypress",
+        "hash": "sha512-Xse5MM7VMm6+CXeuPwz70sOkOTLBxK6rJBt9sfWN5xVXLy0kfvcYD6nk32eB5YUoNb589lORKGPpp78D1zT+fQ=="
+      }
+    },
     "npm:@nrwl/devkit": {
       "type": "npm",
       "name": "npm:@nrwl/devkit",
@@ -2214,6 +2223,15 @@
         "hash": "sha512-Mfu7uhWZgkLt6xvPc/tEzVC+D6UQ6XiXn5n9/9AVcehNZ+IvfUgy2tiKtUE3Ss0IfUgUGK36vQD1IVmmB3+3mA=="
       }
     },
+    "npm:@nrwl/storybook": {
+      "type": "npm",
+      "name": "npm:@nrwl/storybook",
+      "data": {
+        "version": "19.4.2",
+        "packageName": "@nrwl/storybook",
+        "hash": "sha512-lhzcejfQSiHssAfdLFpwqGHkktNY9fLN01z0VOfzK+7hT7DwY+2XAqlP/B9psOvFEC0n5gBw5fyqql3/g/U3tg=="
+      }
+    },
     "npm:@nrwl/tao": {
       "type": "npm",
       "name": "npm:@nrwl/tao",
@@ -2257,6 +2275,15 @@
         "version": "19.4.2",
         "packageName": "@nrwl/workspace",
         "hash": "sha512-+u8Ok6WF0rfaR5wL/WDIZtQhclLBREHvUdnjoLYtL8RspTyqSoQuOXQXP07Ln++rwLWmTIoE2NaSNKF7K0hLRQ=="
+      }
+    },
+    "npm:@nx/cypress": {
+      "type": "npm",
+      "name": "npm:@nx/cypress",
+      "data": {
+        "version": "19.4.2",
+        "packageName": "@nx/cypress",
+        "hash": "sha512-b732py3ssBZJN2EJuQM3Ufo7IcqBk6XXNmMdqaXpi9MdpBHomRgZsMKG2IE87CI6nGWvZF7Bq/OhbZ8CJBtZLw=="
       }
     },
     "npm:@nx/devkit": {
@@ -2410,6 +2437,15 @@
         "version": "19.4.2",
         "packageName": "@nx/react",
         "hash": "sha512-DHXhR7tovP2M6LXnusQ/dfLQf+7Zng4tzvZcMpbgDqCozBUimXw6bxvafcXwphO5GIxiC/PBXzK4ykO1Pcr05w=="
+      }
+    },
+    "npm:@nx/storybook": {
+      "type": "npm",
+      "name": "npm:@nx/storybook",
+      "data": {
+        "version": "19.4.2",
+        "packageName": "@nx/storybook",
+        "hash": "sha512-Sgzmg0DaT2MYWp0dwRr71ubLV9jvzxx+qeA45fcurlfWRh8w+1gXMo8Jcs0o8B3UC5BmcgtiUqiRf/vfsEHktA=="
       }
     },
     "npm:@nx/vite": {
@@ -14198,6 +14234,13 @@
         "type": "static"
       }
     ],
+    "npm:@nrwl/cypress": [
+      {
+        "source": "npm:@nrwl/cypress",
+        "target": "npm:@nx/cypress",
+        "type": "static"
+      }
+    ],
     "npm:@nrwl/devkit": [
       {
         "source": "npm:@nrwl/devkit",
@@ -14230,6 +14273,13 @@
       {
         "source": "npm:@nrwl/react",
         "target": "npm:@nx/react",
+        "type": "static"
+      }
+    ],
+    "npm:@nrwl/storybook": [
+      {
+        "source": "npm:@nrwl/storybook",
+        "target": "npm:@nx/storybook",
         "type": "static"
       }
     ],
@@ -14270,6 +14320,43 @@
       {
         "source": "npm:@nrwl/workspace",
         "target": "npm:@nx/workspace",
+        "type": "static"
+      }
+    ],
+    "npm:@nx/cypress": [
+      {
+        "source": "npm:@nx/cypress",
+        "target": "npm:@nrwl/cypress",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/cypress",
+        "target": "npm:@nx/devkit",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/cypress",
+        "target": "npm:@nx/eslint",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/cypress",
+        "target": "npm:@nx/js",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/cypress",
+        "target": "npm:@phenomnomnominal/tsquery",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/cypress",
+        "target": "npm:detect-port",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/cypress",
+        "target": "npm:tslib",
         "type": "static"
       }
     ],
@@ -14738,6 +14825,48 @@
       },
       {
         "source": "npm:@nx/react",
+        "target": "npm:tslib",
+        "type": "static"
+      }
+    ],
+    "npm:@nx/storybook": [
+      {
+        "source": "npm:@nx/storybook",
+        "target": "npm:@nrwl/storybook",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/storybook",
+        "target": "npm:@nx/cypress",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/storybook",
+        "target": "npm:@nx/devkit",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/storybook",
+        "target": "npm:@nx/eslint",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/storybook",
+        "target": "npm:@nx/js",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/storybook",
+        "target": "npm:@phenomnomnominal/tsquery",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/storybook",
+        "target": "npm:semver",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nx/storybook",
         "target": "npm:tslib",
         "type": "static"
       }
