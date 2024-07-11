@@ -38,24 +38,20 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "14842560400675555411"
+        "file": ".gitattributes",
+        "hash": "13194702717607086212"
       },
       {
         "file": ".gitignore",
         "hash": "17794204169164375577"
       },
       {
-        "file": "package-lock.json",
-        "hash": "16947951280967386419"
-      },
-      {
-        "file": ".gitattributes",
-        "hash": "13194702717607086212"
-      },
-      {
         "file": ".nx/nxw.js",
         "hash": "11254603345854076312"
+      },
+      {
+        "file": "nx",
+        "hash": "17165975525224888679"
       },
       {
         "file": "nx.bat",
@@ -66,8 +62,12 @@
         "hash": "125517615364692767"
       },
       {
-        "file": "nx",
-        "hash": "17165975525224888679"
+        "file": "package-lock.json",
+        "hash": "2277004149923037004"
+      },
+      {
+        "file": "package.json",
+        "hash": "14842560400675555411"
       }
     ],
     "projectFileMap": {}
