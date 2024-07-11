@@ -10,6 +10,7 @@
     "@nx/js": "19.4.2",
     "@nx/next": "19.4.2",
     "@nx/react": "19.4.2",
+    "@nx/storybook": "^19.4.2",
     "@nx/vite": "^19.4.2",
     "@nx/web": "19.4.2",
     "@swc-node/register": "~1.9.1",
@@ -75,60 +76,60 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "nx.bat",
-        "hash": "16828809655253213278"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "11114223012360193590"
-      },
-      {
-        "file": "nx.json",
-        "hash": "3016731763663513553"
-      },
-      {
-        "file": ".nx/nxw.js",
-        "hash": "11254603345854076312"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "vitest.workspace.ts",
-        "hash": "7870362608836821141"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "17794204169164375577"
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
       },
       {
         "file": ".eslintrc.json",
         "hash": "17866138117546000433"
       },
       {
+        "file": ".gitattributes",
+        "hash": "13194702717607086212"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "5738329990288910162"
+      },
+      {
+        "file": ".nx/nxw.js",
+        "hash": "11254603345854076312"
+      },
+      {
         "file": ".prettierignore",
         "hash": "14688272390704683536"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": "nx",
         "hash": "17165975525224888679"
       },
       {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
+        "file": "nx.bat",
+        "hash": "16828809655253213278"
       },
       {
-        "file": ".gitattributes",
-        "hash": "13194702717607086212"
+        "file": "nx.json",
+        "hash": "3016731763663513553"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "812170681425672717"
+      },
+      {
+        "file": "package.json",
+        "hash": "7954770161795837044"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "7008848813623971342"
       },
       {
-        "file": "package.json",
-        "hash": "8790289605553438969"
+        "file": "vitest.workspace.ts",
+        "hash": "7870362608836821141"
       }
     ],
     "projectFileMap": {
