@@ -132,3 +132,6 @@ dist
 .nx/installation
 .nx/cache
 .nx/workspace-data/d/server-process.json
+
+
+storybook-static
