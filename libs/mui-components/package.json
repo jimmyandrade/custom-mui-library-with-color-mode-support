@@ -10,5 +10,8 @@
       "require": "./index.js",
       "types": "./index.d.ts"
     }
+  },
+  "dependencies": {
+    "@mui/material": "5.16.1"
   }
 }
