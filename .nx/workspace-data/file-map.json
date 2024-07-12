@@ -35,6 +35,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "jsdom": "~22.1.0",
     "prettier": "^2.6.2",
+    "storybook": "^7.5.3",
     "typescript": "~5.4.2",
     "vite": "^5.0.0",
     "vite-plugin-dts": "~3.8.1",
@@ -71,6 +72,15 @@
       "options": {
         "targetName": "lint"
       }
+    },
+    {
+      "name": "@nx/storybook/plugin",
+      "options": {
+        "serveStorybookTargetName": "storybook",
+        "buildStorybookTargetName": "build-storybook",
+        "testStorybookTargetName": "test-storybook",
+        "staticStorybookTargetName": "static-storybook"
+      }
     }
   ],
   "fileMap": {
@@ -78,6 +88,18 @@
       {
         "file": ".eslintignore",
         "hash": "7663861978715868291"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3718212522498532005"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "nx.json",
+        "hash": "9082389523942888363"
       },
       {
         "file": ".eslintrc.json",
@@ -88,40 +110,24 @@
         "hash": "13194702717607086212"
       },
       {
-        "file": ".gitignore",
-        "hash": "5738329990288910162"
+        "file": "nx",
+        "hash": "17165975525224888679"
       },
       {
         "file": ".nx/nxw.js",
         "hash": "11254603345854076312"
       },
       {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "nx",
-        "hash": "17165975525224888679"
-      },
-      {
         "file": "nx.bat",
         "hash": "16828809655253213278"
       },
       {
-        "file": "nx.json",
-        "hash": "3016731763663513553"
-      },
-      {
         "file": "package-lock.json",
-        "hash": "812170681425672717"
+        "hash": "15484525486472623742"
       },
       {
         "file": "package.json",
-        "hash": "7954770161795837044"
+        "hash": "7814161972905015400"
       },
       {
         "file": "tsconfig.base.json",
@@ -130,6 +136,10 @@
       {
         "file": "vitest.workspace.ts",
         "hash": "7870362608836821141"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
       }
     ],
     "projectFileMap": {
@@ -144,7 +154,7 @@
         },
         {
           "file": "libs/mui-components/package.json",
-          "hash": "2410211397881383511"
+          "hash": "1919994837058457696"
         },
         {
           "file": "libs/mui-components/project.json",
@@ -175,6 +185,10 @@
             "npm:vite-plugin-dts",
             "npm:@nx/vite"
           ]
+        },
+        {
+          "file": "libs/mui-components/package-lock.json",
+          "hash": "8212712385212284626"
         }
       ]
     }
