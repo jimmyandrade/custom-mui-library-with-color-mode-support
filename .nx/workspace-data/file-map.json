@@ -86,24 +86,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": "nx.bat",
-        "hash": "16828809655253213278"
+        "file": "package-lock.json",
+        "hash": "15484525486472623742"
       },
       {
         "file": ".eslintrc.json",
         "hash": "17866138117546000433"
-      },
-      {
-        "file": "package.json",
-        "hash": "486031792999229286"
       },
       {
         "file": "vitest.workspace.ts",
@@ -114,6 +102,10 @@
         "hash": "9082389523942888363"
       },
       {
+        "file": "nx",
+        "hash": "17165975525224888679"
+      },
+      {
         "file": ".gitignore",
         "hash": "3718212522498532005"
       },
@@ -122,24 +114,32 @@
         "hash": "7008848813623971342"
       },
       {
-        "file": ".nx/nxw.js",
-        "hash": "11254603345854076312"
-      },
-      {
         "file": ".prettierignore",
         "hash": "14688272390704683536"
+      },
+      {
+        "file": ".nx/nxw.js",
+        "hash": "11254603345854076312"
       },
       {
         "file": ".gitattributes",
         "hash": "13194702717607086212"
       },
       {
-        "file": "package-lock.json",
-        "hash": "15484525486472623742"
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
       },
       {
-        "file": "nx",
-        "hash": "17165975525224888679"
+        "file": "nx.bat",
+        "hash": "16828809655253213278"
+      },
+      {
+        "file": "package.json",
+        "hash": "486031792999229286"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       }
     ],
     "projectFileMap": {
@@ -178,7 +178,7 @@
         },
         {
           "file": "libs/mui-components/tsconfig.spec.json",
-          "hash": "15943385144407153049"
+          "hash": "9769192553371434958"
         },
         {
           "file": "libs/mui-components/vite.config.mts",
