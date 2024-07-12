@@ -1,5 +1,7 @@
 {
-  "scripts": {},
+  "scripts": {
+    "build": "nx build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jimmyandrade/custom-mui-library-with-color-mode-support.git"
