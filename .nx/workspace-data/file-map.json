@@ -86,60 +86,60 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package-lock.json",
-        "hash": "15484525486472623742"
-      },
-      {
-        "file": ".gitattributes",
-        "hash": "13194702717607086212"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "7008848813623971342"
-      },
-      {
-        "file": "nx",
-        "hash": "17165975525224888679"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "17866138117546000433"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "3718212522498532005"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
-      },
-      {
-        "file": "nx.json",
-        "hash": "9082389523942888363"
-      },
-      {
-        "file": "nx.bat",
-        "hash": "16828809655253213278"
-      },
-      {
-        "file": "vitest.workspace.ts",
-        "hash": "7870362608836821141"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": ".eslintignore",
         "hash": "7663861978715868291"
       },
       {
+        "file": "nx.bat",
+        "hash": "16828809655253213278"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
         "file": "package.json",
         "hash": "486031792999229286"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": "vitest.workspace.ts",
+        "hash": "7870362608836821141"
+      },
+      {
+        "file": "nx.json",
+        "hash": "9082389523942888363"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3718212522498532005"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "7008848813623971342"
       },
       {
         "file": ".nx/nxw.js",
         "hash": "11254603345854076312"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": ".gitattributes",
+        "hash": "13194702717607086212"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15484525486472623742"
+      },
+      {
+        "file": "nx",
+        "hash": "17165975525224888679"
       }
     ],
     "projectFileMap": {
@@ -153,8 +153,12 @@
           "hash": "12153839121233348246"
         },
         {
+          "file": "libs/mui-components/package-lock.json",
+          "hash": "7511615550411414218"
+        },
+        {
           "file": "libs/mui-components/package.json",
-          "hash": "1919994837058457696"
+          "hash": "1169118513613794757"
         },
         {
           "file": "libs/mui-components/project.json",
@@ -177,7 +181,7 @@
           "hash": "15943385144407153049"
         },
         {
-          "file": "libs/mui-components/vite.config.ts",
+          "file": "libs/mui-components/vite.config.mts",
           "hash": "11938094856637739104",
           "deps": [
             "npm:vite",
@@ -185,10 +189,6 @@
             "npm:vite-plugin-dts",
             "npm:@nx/vite"
           ]
-        },
-        {
-          "file": "libs/mui-components/package-lock.json",
-          "hash": "8212712385212284626"
         }
       ]
     }
