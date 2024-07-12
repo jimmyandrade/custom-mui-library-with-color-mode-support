@@ -1,1 +1,1 @@
-export {};
+export { Box } from '@mui/material';
